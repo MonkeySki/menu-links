@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[,,,function(e,n,t){e.exports=t(12)},,,,,function(e,n,t){},,function(e,n,t){},,function(e,n,t){"use strict";t.r(n);var o=t(0),a=t.n(o),c=t(2),r=t.n(c);t(8),t(10);var s=function(){return a.a.createElement("div",{className:"App"},"Heya I just want this to show on the screen please!")};r.a.render(a.a.createElement(s,null),document.getElementById("root"))}],[[3,2,1]]]);
-//# sourceMappingURL=main.7a0dc009.chunk.js.map
