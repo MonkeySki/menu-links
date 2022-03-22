@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
         <Navbar />
-        Yay! I made a menu bar following this tutorial: https://www.youtube.com/watch?v=fL8cFqhTHwA
+        So, making sure this changes menu links...
       </div>
     
   );
