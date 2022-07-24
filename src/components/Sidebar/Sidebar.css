@@ -1,0 +1,20 @@
+.sidebarItems{
+    background: #5B5255;
+    width: 100%;
+    height: 90vh;
+}
+
+.sidebar-menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.fa-solid{
+    font-size: 2rem;
+    color: #FAA5C2;
+    padding: 0.5rem;
+}
+
+

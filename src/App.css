@@ -5,3 +5,15 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.page {
+  background: #71686B;
+  height: 90vh;
+  border-top: solid 3px;
+  border-left: solid 3px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #E16389;
+  padding: 0.5rem;
+}

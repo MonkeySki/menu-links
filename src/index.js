@@ -2,12 +2,12 @@ import React from "react";
 import { render } from "react-dom";
 import { BrowserRouter,  Routes,  Route,} from "react-router-dom";
 import App from "./App";
-import Bosses from "./routes/Bosses";
-import Invoice from "./routes/Invoice";
-import Home from "./routes/Home";
+import Messages from "./routes/Messages";
+import Message from "./routes/Message";
 import About from "./routes/About";
 import Events from "./routes/Events";
 import Login from "./routes/Login";
+import Profile from "./routes/Profile";
 
 const rootElement = document.getElementById("root");
 
@@ -18,20 +18,20 @@ render(
         <Route path="about" element={<About />}></Route>
         <Route path="events" element={<Events />}></Route>
         <Route path="login" element={<Login />}></Route>
-        <Route path="bosses" element={<Bosses />}>
+        <Route path="messages" element={<Messages />}>
         <Route
         index
         element={
-          <main style={{ padding: "1rem" }}>
-            <p>Select a Boss</p>
+          <main style={{ padding: "0.5rem" }}>
+            <h2>Messages</h2>
           </main>
         }
       />
-      <Route path=":invoiceId" element={<Invoice />} />
+      <Route path=":messageId" element={<Message />} />
     </Route>
         <Route
       path="*"
-      element={<Home />}
+      element={<Profile />}
     />
       </Route>
     </Routes>
