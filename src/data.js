@@ -1,4 +1,4 @@
-let tracker = 3;
+let tracker = 1;
 
 export function setTracker(){
   return tracker = tracker +1;

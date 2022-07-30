@@ -23,5 +23,11 @@ export const sidebarItems = [
         title: 'Photos',
         icon: <i class="fa-solid fa-image"></i>,
         url: '/events'
+    },
+
+    {
+        title: 'Games',
+        icon: <i class="fa-solid fa-gamepad"></i>,
+        url: '/games'
     }
 ]
